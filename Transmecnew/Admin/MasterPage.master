@@ -1,0 +1,267 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <meta charset="utf-8">
+  <title>Lumia - Multipurpose responsive bootstrap website template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- styles -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="assets/css/prettyPhoto.css" rel="stylesheet">
+  <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+  <link href="assets/css/flexslider.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/color/default.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,600,400italic|Open+Sans:400,600,700" rel="stylesheet">
+
+  <!-- fav and touch icons -->
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
+<body>
+<form id="form" runat="server">
+  <div id="wrapper">
+    <header>
+      <!-- Navbar
+    ================================================== -->
+      <div class="navbar navbar-static-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <!-- logo -->
+            <div class="logo">
+              <a href="index.html"><img src="assets/img/logo.png" alt="" /></a>
+            </div>
+            <!-- end logo -->
+
+            <!-- top menu -->
+            <div class="navigation">
+              <nav>
+                <ul class="nav topnav">
+                  <li class="active">
+                    <a href="index.html"><i class="icon-home"></i> Home </a>
+                  </li>
+                 <%-- <li class="dropdown">
+                    <a href="#"><i class="icon-cog"></i> Features <i class="icon-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="media.html">Media</a></li>
+                      <li><a href="color-scheme.html">10 Theme colors</a></li>
+                      <li><a href="buttons.html">Buttons</a></li>
+                      <li><a href="components.html">Components</a></li>
+                      <li><a href="animations.html">56 Animations</a></li>
+                      <li><a href="icons.html">Icons</a></li>
+                      <li><a href="icon-variations.html">Icon variations</a></li>
+                      <li class="dropdown"><a href="#">3rd level <i class="icon-angle-right"></i></a>
+                        <ul class="dropdown-menu sub-menu">
+                          <li><a href="#">Example menu</a></li>
+                          <li><a href="#">Example menu</a></li>
+                          <li><a href="#">Example menu</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>--%>
+                  <li class="dropdown">
+                    <a href="#"><i class="icon-leaf"></i> Employee <i class="icon-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="Designation.aspx">Designation</a></li>
+                      <li><a href="StaffMaster.aspx">Staff</a></li>
+                      <li><a href="Driver.aspx">Driver</a></li>
+                   <%--   <li><a href="404.html">404</a></li>--%>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#"><i class="icon-briefcase"></i> CarDetail <i class="icon-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="Car.aspx">Car</a></li>
+                      <li><a href="Car_master.aspx">Car Master</a></li>
+                     
+                      <li><a href="Fuel.aspx">Fuel</a></li>
+                      <li><a href="Insurance.aspx">Insurance</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#"><i class="icon-book"></i> Location <i class="icon-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                     
+                     
+                      <li><a href="ProdCate.aspx">ProdCategory</a></li>
+                      <li><a href="ProdSubCat.aspx">SubCategory</a></li>
+                       <li><a href="Product.aspx">Product</a></li>
+                      
+                     
+                      <li><a href="State.aspx">State</a></li>
+                      <li><a href="City.aspx">City</a></li>
+                      <li><a href="../Login.aspx">Logout</a></li>
+
+                     <%-- <li><a href="post-left-sidebar.html">Post left sidebar</a></li>
+                      <li><a href="post-right-sidebar.html">Post right sidebar</a></li>--%>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="ViewBookingCar.aspx"><i class="icon-envelope-alt"></i> View Booking</a>
+                  </li>
+                   <li>
+                    <a href="Givecar.aspx"><i class="icon-envelope-alt"></i> TodayBooking</a>
+                  </li>
+                   <li>
+                    <a href="ReturnCar.aspx"><i class="icon-envelope-alt"></i> Return Car</a>
+                  </li>
+                   <%--<li>
+                    <a href="../Login.aspx"><i class="icon-envelope-alt"></i> Logout</a>
+                  </li>--%>
+                </ul>
+              </nav>
+            </div>
+            <!-- end menu -->
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="intro">
+
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <!-- Place somewhere in the <body> of your page -->
+            <div id="mainslider" class="flexslider">
+              <ul class="slides">
+                <li data-thumb="assets/img/slides/flexslider/img1.jpg">
+                  <img src="assets/img/slides/flexslider/img1.jpg" alt="" />
+                  <div class="flex-caption primary">
+                    <h2>Dreams</h2>
+                    <p>Dream what you desire</p>
+                  </div>
+                </li>
+                <li data-thumb="assets/img/slides/flexslider/img2.jpg">
+                  <img src="assets/img/slides/flexslider/img2.jpg" alt="" />
+                  <div class="flex-caption warning">
+                    <h2>Ride</h2>
+                    <p>Solo or with someone...</p>
+                  </div>
+                </li>
+                <li data-thumb="assets/img/slides/flexslider/img3.jpg">
+                  <img src="assets/img/slides/flexslider/img3.jpg" alt="" />
+                  <div class="flex-caption success">
+                    <h2>Achieve</h2>
+                    <p>For what you are dreaming</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="maincontent">
+      <div class="container">
+
+        <div class="row">
+          <div class="span12">
+            <div class="call-action">
+
+              <div class="text">
+                <p>
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                </p>
+              </div>
+
+            </div>
+            <!-- end tagline -->
+          </div>
+        </div>
+
+        <div class="row">
+        </div>
+
+        <div class="row">
+          <div class="span12">
+            <div class="row">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Footer
+ ================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="span4">
+            <div class="widget">
+            </div>
+          </div>
+          <div class="span4">
+            <div class="widget">
+              <div class="clear"></div>
+            </div>
+          </div>
+          <div class="span4">
+            <div class="widget">
+            </div>
+            <div class="widget">
+              <ul class="social">
+                <li><a href="#" data-placement="bottom" title="Twitter"><i class="icon-twitter icon-square icon-32"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-square icon-32"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Linkedin"><i class="icon-linkedin icon-square icon-32"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Pinterest"><i class="icon-pinterest icon-square icon-32"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Google plus"><i class="icon-google-plus icon-square icon-32"></i></a></li>
+                <a href="../TANDC.aspx" data-placement="bottom" title="Terms&Conditions"
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="verybottom">
+        <div class="container">
+          <div class="row">
+            <div class="span6">
+            </div>
+            <div class="span6">
+              <div class="pull-right">
+                <div class="credits">
+                  The Transmec all rights reserved  <p class="copy">
+                &copy; Copyright 2017 The Transmec</p>
+            <p class="powered">
+                Powered by The Transmec</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+  <!-- end wrapper -->
+  <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-48 active"></i></a>
+
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/raphael-min.js"></script>
+  <script src="assets/js/jquery.easing.1.3.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/google-code-prettify/prettify.js"></script>
+  <script src="assets/js/jquery.elastislide.js"></script>
+  <script src="assets/js/jquery.prettyPhoto.js"></script>
+  <script src="assets/js/jquery.flexslider.js"></script>
+  <script src="assets/js/jquery-hover-effect.js"></script>
+  <script src="assets/js/animate.js"></script>
+
+  <!-- Template Custom JavaScript File -->
+  <script src="assets/js/custom.js"></script>
+  </form>
+</body>
+</html>

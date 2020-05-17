@@ -1,0 +1,126 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage12.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
+<head runat="server">
+    <title>CAR RENTAL SOFTWARE, CAR RENTAL SYSTEM, TAXI SOFTWARE </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/car-rental.css" rel="stylesheet" type="text/css" />
+    <link href="css/car-rental-green.css" rel="stylesheet" type="text/css" />
+    <link href="css/car-rental-tab.css" rel="stylesheet" type="text/css" />
+   
+</head>
+<body id="top">
+    <form id="form2" runat="server">
+    <div class="main_header">
+        <div class="main_header_inner">
+            <ul>
+                <li><a class="current" href="ClientProfile.aspx">Home</a></li>
+                <li><a href="BookCab.aspx">Book Car</a></li>
+                <li><a href="ViewAmount.aspx">View Approval</a></li>
+                 <li><a href="ViewFinalAmount.aspx">View Final Amount</a></li>
+                <li><a href="ChangePassword.aspx">Change Password</a></li>
+               
+                <li class="last"><a href="../Login.aspx">Log Out</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="logo_header">
+        <div class="logo_header_inner">
+            <div class="logo">
+                <img src="images/car-logo.png" />
+            </div>
+            <div class="logo_right">
+                <p class="text_style">
+                    </p>
+                <p class="text_style">
+             
+                </p>
+            </div>
+            <br clear="all" />
+        </div>
+    </div>
+    <!-- ####################################################################################################### -->
+    <div class="car_rental_search_box">
+        <div class="car_rental_search_box_inner">
+            <div class="car_rental_search_box_inner_left">
+                <div id="dvMain" style="display: block">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        <br clear="all" />
+    </div>
+    <!-- ####################################################################################################### -->
+    <%--<div class="main_footer">
+        <div class="main_footer_inner">
+            <div class="entry">
+                <h3>
+                    Popular Car Destinations:</h3>
+                <ul>
+                    <li><a href="#">Vadodara to Ahmedabad Taxi</a></li>
+                    <li><a href="#">Vadodara to Abu Taxi</a></li>
+                    <li><a href="#">Vadodara to Pavagadh Taxi</a></li>
+                    <li><a href="#">Vadodara to Mumbai Taxi</a></li>
+                    <li><a href="#">Vadodara to Halol Taxi</a></li>
+                    <li><a href="#">Vadodara to Vaghodia Taxi</a></li>
+                    <li><a href="#">Vadodara to Surat Taxi</a></li>
+                </ul>
+            </div>
+            <div class="entry">
+                <h3>
+                    Review</h3>
+                <div class="testimonials">
+                    <p>
+                        &quot;Excellent car hire service and value for money&quot;</p>
+                    <p>
+                        Aathiya Patel</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &quot;Speedy Service ,Polite Staff&quot;</p>
+                    <p>
+                        David&nbsp; Thomas</p>
+                    <p>
+                        &nbsp;</p>
+                    <p>
+                        &nbsp;</p>
+            <div class="entry">
+                <h3>
+                    Popular Cars For Hire</h3>
+                <ul>
+                    <li><a href="#">Tata Indica in Vadodara</a></li>
+                    <li><a href="#">Tata Indigo in Vadodara</a></li>
+                    <li><a href="#">Toyota Innova in Vadodara</a></li>
+                    <li><a href="#">Honda City in Delhi</a></li>
+                    <li><a href="#">Tavera in Vadodara</a></li>
+                    <li><a href="#">Tempo Traveller in Vadodara</a></li>
+                    <li><a href="#">Mercedes E Class in Vaddoara</a></li>
+                </ul>
+            </div>
+                    <p>
+                        m, cursus
+                        ut adipiscing porta, vestibulum quis turpis."</p>
+                    <p class="author">
+                        Xyz , Customer Name</p>
+                </div>
+            </div>
+            <br clear="all" />
+        </div>
+    </div>--%>
+    <div class="lower_footer">
+        <div class="lower_footer_inner">
+            <p class="copy">
+                &copy; Copyright 2014 CarRentalSystem</p>
+            <p class="powered">
+                Powered by <a href="http://www.Spectra-skinfosoft.com/" target="_blank">Spectra-skinfosoft.com</a></p>
+            <div class="cl">
+                &nbsp;</div>
+        </div>
+    </div>
+    </form>
+</body>
+<!-- Mirrored from taxisoftware.technologiesindia.com/ by HTTrack Website Copier/3.x [XR&CO'2013], Mon, 21 Apr 2014 07:46:57 GMT -->
+</html>

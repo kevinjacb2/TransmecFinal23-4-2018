@@ -1,0 +1,40 @@
+﻿body
+{
+    background-color: #E1E1FF;
+}
+
+.table
+{ 
+    background-color: White; /* width:90%;*/;
+    font-family: calibri;
+    font-size: medium;
+    border: medium groove #333333;
+ }
+
+.title1
+{
+    font-size: large;
+    color: White;
+    background-color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.buttno
+{
+    padding: 5px;
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    height: 34px;
+}
+.button:hover
+{
+	padding:5px;
+	background-color:red;
+	color:White;
+	text-align:center;
+	font-weight:bold;		
+}
